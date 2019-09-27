@@ -1,0 +1,27 @@
+{
+    "pandoc.pdfOptString": "--bibliography=\"/Users/nickhood/Dropbox/Bibliographies/PhD.bib\"",
+    "pandoc.docxOptString": "--bibliography=\"/Users/nickhood/Dropbox/Bibliographies/PhD.bib\"",
+    "pandoc.htmlOptString": "-s --bibliography=\"/Users/nickhood/Dropbox/Bibliographies/PhD.bib\"",
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.aux",
+        "*.bbl",
+        "*.blg",
+        "*.idx",
+        "*.ind",
+        "*.lof",
+        "*.lot",
+        "*.out",
+        "*.toc",
+        "*.acn",
+        "*.acr",
+        "*.alg",
+        "*.glg",
+        "*.glo",
+        "*.gls",
+        "*.ist",
+        "*.fls",
+        "*.log",
+        "*.fdb_latexmk",
+        "*.synctex.gz"
+      ]
+}
