@@ -1,9 +1,12 @@
 ---
 title: Example
 author: Nick Hood
-date: 22nd September 2019
+date: 29th April 2020
 # background-image: desktop.JPG
 classoption: "aspectratio=169"
+theme: Pittsburgh
+colortheme: beaver
+fonttheme: structuresmallcapsserif
 ---
 
 ## Outline / Agenda
@@ -22,7 +25,6 @@ Ut eleifend blandit lobortis. Aliquam quis commodo purus. Suspendisse porta leo 
 :::
 :::
 
-
 ## Bullets and links
 
 * First [Link](https://cullaloe.net)!
@@ -36,10 +38,7 @@ Ut eleifend blandit lobortis. Aliquam quis commodo purus. Suspendisse porta leo 
 $ pandoc -t beamer Beamer.md -o Beamer.pdf \
     --bibliography="/path/to/bibliography.bib"
 ```
-* add ```-V theme:Pittsburgh``` for non-default theme
-* add ```-V colortheme:beaver``` for non-default colours
-* add ```-V fonttheme:structuresmallcapsserif``` for non-default font
-* Themes, etc. are [online](http://www.deic.uab.es/~iblanes/beamer_gallery/index_by_theme.html)
+Themes, etc. are [online](http://deic.uab.es/~iblanes/beamer_gallery/index_by_theme.html)
 
 ## YAML Header
 
@@ -48,7 +47,11 @@ $ pandoc -t beamer Beamer.md -o Beamer.pdf \
 title: Example
 author: Nick Hood
 date: 22nd September 2019
+background-image: forth-bridge.jpg
 classoption: "aspectratio=169"
+theme: Pittsburgh
+colortheme: beaver
+fonttheme: structuresmallcapsserif
 ---
 ```
 
